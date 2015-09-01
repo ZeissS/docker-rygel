@@ -1,5 +1,5 @@
-FROM sameersbn/ubuntu:14.04.20150825
-MAINTAINER sameer@damagehead.com
+FROM resin/rpi-raspbian:jessie
+MAINTAINER zeisss@moinz.de
 
 ENV RYGEL_CACHE_DIR=/root/.cache/rygel \
     RYGEL_VIDEOS_DIR=/videos \
